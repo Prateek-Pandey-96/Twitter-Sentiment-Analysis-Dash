@@ -122,7 +122,7 @@ accuracy = accuracy_score(test, y_pred)
 -The logistic node contains a threshold which gives 1/0 (depending on the value of net*(w1x1+w2x2+-------+wnxn)*)
 
 **Models Possible(9)**
-Unigram-Without stopwords(used by me)
+Unigram-Without stopwords(used by me)</br>
 	With stopwords(used by me)
 	Without custom stopwords(used by me)
 	
