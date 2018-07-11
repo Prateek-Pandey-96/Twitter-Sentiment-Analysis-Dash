@@ -114,7 +114,8 @@ accuracy = accuracy_score(test, y_pred)
 *accuracy score: 80.72% (with prat.pkl)*
 *accuracy score: 82.33% (with trigram_prat.pkl)*
 *accuracy score: 82.53% (with better_prat.pkl)*
-*From here the best model comes out to be better_prat.pkl with no stopwords being removed*
+
+*Best Model:better_prat.pkl*
 ------------------------------------------------------------------------------------------------------------------
 4>*Now we will use colleague_tester.ipynb*
 
