@@ -84,13 +84,13 @@ checker_pipeline = Pipeline([
  joblib.dump(pipeline,"bigram_prat.pkl") """this function inside the function accuracy_summary will generate several models like trigram_prat.pkl,prat.pkl,better_prat.pkl"""
  ```
 *There are 9 possible models (i have used only three)*
-*unigram---1>without stopwords
+***unigram**---1>without stopwords
 			2>with stopwords
 			3>without custom stopwords*
-*bigram---1>without stopwords
+***bigram**---1>without stopwords
 			2>with stopwords
 			3>without custom stopwords*
-*trigram---1>without stopwords
+***trigram**---1>without stopwords
 			2>with stopwords
 			3>without custom stopwords*
 
@@ -111,9 +111,9 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(test, y_pred)
 ```
 
-accuracy score: 80.72% (with prat.pkl)
-accuracy score: 82.33% (with trigram_prat.pkl)
-accuracy score: 82.53% (with better_prat.pkl)
+*accuracy score: 80.72% (with prat.pkl)*
+*accuracy score: 82.33% (with trigram_prat.pkl)*
+*accuracy score: 82.53% (with better_prat.pkl)*
 *From here the best model comes out to be better_prat.pkl with no stopwords being removed*
 ------------------------------------------------------------------------------------------------------------------
 4>*Now we will use colleague_tester.ipynb*
