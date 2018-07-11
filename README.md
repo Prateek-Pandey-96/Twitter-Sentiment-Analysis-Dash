@@ -83,7 +83,7 @@ checker_pipeline = Pipeline([
  ```python
  joblib.dump(pipeline,"bigram_prat.pkl") """this function inside the function accuracy_summary will generate several models like trigram_prat.pkl,prat.pkl,better_prat.pkl"""
  ```
-*There are 9 possible models (i have used only three)*
+***There are 9 possible models (i have used only three)***
 ***unigram**---1>without stopwords
 			2>with stopwords
 			3>without custom stopwords*
