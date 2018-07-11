@@ -88,8 +88,10 @@ accuracy score: 80.72% (with prat.pkl) accuracy score: 82.33% (with trigram_prat
 
 82.60% accuracy obtained on statements collected from colleagues
 
-5>Scope of improvement
+5>*Scope of improvement*
 
 The model is not good with sarcasms The model also works with a fixed vocabulary(it has its own limitations)
 
-Model Explanation -In this model each word represents a node in input layer -The weights are the occurences of the word(in a normalized fashion) -The logistic node contains a threshold which gives 1/0 (depending on the value of net*(w1x1+w2x2+-------+wnxn)*)
+Model Explanation -In this model each word represents a node in input layer 
+-The weights are the occurences of the word(in a normalized fashion) 
+-The logistic node contains a threshold which gives 1/0 (depending on the value of net*(w1x1+w2x2+-------+wnxn)*)
