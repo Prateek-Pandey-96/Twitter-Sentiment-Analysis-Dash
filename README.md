@@ -94,11 +94,10 @@ checker_pipeline = Pipeline([
 			2>with stopwords
 			3>without custom stopwords*
 
- *better_prat.pkl--model with stopwords
-  prat.pkl--model with custom stopwords removed
-  trigrm_prat.pkl--model using trigram approach and without removing stopwords
- *																											
-***Details of building the  model can be found in the part-2.ipynb***
+ *better_prat.pkl--model with stopwords*
+ *prat.pkl--model with custom stopwords removed*
+ *trigrm_prat.pkl--model using trigram approach and without removing stopword*																											
+**Details of building the  model can be found in the part-2.ipynb**
 -----------------------------------------------------------------------------------------------------------------
 3>*Now we will use testing.ipynb*
 ```python
